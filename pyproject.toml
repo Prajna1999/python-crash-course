@@ -1,0 +1,9 @@
+[project]
+name = "python-crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "graphics-py>=5.0.1.post1",
+]

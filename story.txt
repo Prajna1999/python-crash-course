@@ -1,0 +1,39 @@
+Enter an example for animal: Enter an example for food: Enter an example for city: 
+--------------------------------------------------
+
+                                       
+In the heart of a forgotten jungle, where vines whispered secrets to the trees,
+lived a curious hello. This hello had a peculiar love for meat,
+though the jungle offered only a meager taste of it.
+
+One humid afternoon, an explorer stumbled upon the hello,
+and was astonished to learn of its fondness for meat.
+Wanting to help, the explorer gently coaxed the hello
+into an adventure far from home.
+
+They traveled to the bustling city of Delhi, where meat
+was abundant and the hello feasted joyfully for days.
+
+But as the city lights twinkled each night, the hello
+longed for the rustling leaves and the chorus of frogs.
+Homesick and weary, it yearned for the wild it once knew.
+
+Touched by its sorrow, the explorer returned the hello
+to its jungle home—this time, with a grand stash of meat
+and a promise to visit again.
+
+And so, the hello lived happily, savoring each bite beneath the stars.
+
+The End.
+
+--------------------------------------------------
+
+Want to create a new story?(yes/no): Goodbye! Thanks for playing
+Enter an example for animal: Traceback (most recent call last):
+  File "madlib.py", line 61, in <module>
+    tellStory()                                         
+  File "madlib.py", line 38, in tellStory
+    addPick('animal', userPicks)            
+  File "madlib.py", line 58, in addPick
+    response = input(prompt).strip() 
+KeyboardInterrupt
